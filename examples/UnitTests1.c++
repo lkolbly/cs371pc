@@ -32,5 +32,5 @@ Running main() from gtest_main.cc
 [----------] Global test environment set-up.
 [----------] 3 tests from MyUnitTests
 [ RUN      ] MyUnitTests.test_1
-Assertion failed: (c > 0), function cycle_length, file ./Collatz1.h, line 19.
+UnitTests1: Collatz1.h:19: int cycle_length(int): Assertion `c > 0' failed.
 */

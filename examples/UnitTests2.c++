@@ -34,14 +34,14 @@ Running main() from gtest_main.cc
 [ RUN      ] MyUnitTests.test_1
 [       OK ] MyUnitTests.test_1 (0 ms)
 [ RUN      ] MyUnitTests.test_2
-UnitTests2.c++:29: Failure
+UnitTests2.c++:19: Failure
 Value of: 5
 Expected: cycle_length( 5)
 Which is: 6
-[  FAILED  ] MyUnitTests.test_2 (1 ms)
+[  FAILED  ] MyUnitTests.test_2 (0 ms)
 [ RUN      ] MyUnitTests.test_3
 [       OK ] MyUnitTests.test_3 (0 ms)
-[----------] 3 tests from MyUnitTests (1 ms total)
+[----------] 3 tests from MyUnitTests (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 3 tests from 1 test case ran. (1 ms total)
