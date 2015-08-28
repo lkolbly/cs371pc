@@ -30,6 +30,13 @@ pull:
     --include "Coverage3.c++"               \
     --exclude "*"                           \
     ../../../examples/c++/ examples
+	@rsync -r -t -u -v --delete             \
+    --include "IsPrime1.h"                  \
+    --include "IsPrime1.c++"                \
+    --include "IsPrime2.h"                  \
+    --include "IsPrime2.c++"                \
+    --exclude "*"                           \
+    ../../../exercises/c++/ exercises
 
 #    --include "Exceptions.c++"              \
 #    --include "Exceptions2.c++"             \
@@ -82,8 +89,6 @@ pull:
 #    --include "OStreamIterator.c++"         \
 #    --include "IStreamIterator.c++"         \
 #    --include "ReverseIterator.c++"         \
-#    --exclude "*"                           \
-#    ../../../exercises/c++/ exercises
 #	@rsync -r -t -u -v --delete             \
 #    --include "Quiz3.c++"                   \
 #    --include "Quiz5.c++"                   \
