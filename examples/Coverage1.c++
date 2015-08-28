@@ -15,7 +15,7 @@ TEST(CoverageFixture, test) {
     ASSERT_EQ(cycle_length(1), 1);}
 
 /*
-% g++-4.8 -fprofile-arcs -ftest-coverage -pedantic -std=c++11 -Wall Coverage1.c++ -o Coverage1 -lgtest -lgtest_main -pthread
+% g++ -fprofile-arcs -ftest-coverage -pedantic -std=c++11 -Wall Coverage1.c++ -o Coverage1 -lgtest -lgtest_main -pthread
 
 
 
@@ -34,7 +34,7 @@ Running main() from gtest_main.cc
 
 
 
-% gcov-4.8 -version
+% gcov -version
 gcov (Ubuntu 4.8.4-2ubuntu1~14.04) 4.8.4
 Copyright (C) 2013 Free Software Foundation, Inc.
 This is free software; see the source for copying conditions.
@@ -43,7 +43,7 @@ FITNESS FOR A PARTICULAR PURPOSE.
 
 
 
-% gcov-4.8 -b Coverage1.c++ | grep -A 5 "File 'Coverage1.c++'"
+% gcov -b Coverage1.c++ | grep -A 5 "File 'Coverage1.c++'"
 File 'Coverage1.c++'
 Lines executed:100.00% of 2
 Branches executed:60.00% of 20

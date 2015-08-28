@@ -15,7 +15,7 @@ TEST(CoverageFixture, test) {
     ASSERT_EQ(cycle_length(2), 2);}
 
 /*
-% g++-4.8 -fprofile-arcs -ftest-coverage -pedantic -std=c++11 -Wall Coverage2.c++ -o Coverage2 -lgtest -lgtest_main -pthread
+% g++ -fprofile-arcs -ftest-coverage -pedantic -std=c++11 -Wall Coverage2.c++ -o Coverage2 -lgtest -lgtest_main -pthread
 
 
 
@@ -34,7 +34,7 @@ Running main() from gtest_main.cc
 
 
 
-% gcov-4.8 -b Coverage2.c++ | grep -A 5 "File 'Coverage2.c++'"
+% gcov -b Coverage2.c++ | grep -A 5 "File 'Coverage2.c++'"
 File 'Coverage2.c++'
 Lines executed:100.00% of 2
 Branches executed:60.00% of 20

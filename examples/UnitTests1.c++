@@ -22,7 +22,7 @@ TEST(MyUnitTests, test_3) {
     ASSERT_EQ(cycle_length(10), 7);}
 
 /*
-% g++-4.8 -pedantic -std=c++11 -Wall UnitTests1.c++ -o UnitTests1 -lgtest -lgtest_main -pthread
+% g++ -pedantic -std=c++11 -Wall UnitTests1.c++ -o UnitTests1 -lgtest -lgtest_main -pthread
 
 
 
