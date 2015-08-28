@@ -41,5 +41,5 @@ before_script:
 
 script:
     - date
-    - make testx
-    - make testx CXX=clang++
+    - make testy
+    - make testy CXX=clang++
