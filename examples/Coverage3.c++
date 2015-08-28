@@ -34,11 +34,11 @@ Running main() from gtest_main.cc
 
 
 
-% gcov -b Coverage3.c++ | grep -A 5 "File 'Coverage3.c++'"
-File 'Coverage3.c++'
-Lines executed:100.00% of 2
-Branches executed:60.00% of 20
-Taken at least once:30.00% of 20
-Calls executed:56.52% of 23
-Creating 'Coverage3.c++.gcov'
+% gcov-4.8 -b ./Coverage3.c++ | grep -A 5 "File 'Collatz2.h'"
+File 'Collatz2.h'
+Lines executed:100.00% of 10
+Branches executed:100.00% of 8
+Taken at least once:75.00% of 8
+Calls executed:0.00% of 2
+Creating 'Collatz2.h.gcov'
 */
